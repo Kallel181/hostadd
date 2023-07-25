@@ -22,3 +22,6 @@ chmod +x hostadd.py
 mv hostadd.py hostadd
 sudo cp hostadd /bin 
 ```
+
+# Disclaimer
+I made this piece of code for myself because i was tired of editing the /etc/hosts everytime i started a new machine in HTB, so, the code is usable, but not in any means good or optimal, it just works.
