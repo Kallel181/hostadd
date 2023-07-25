@@ -2,11 +2,12 @@
 A simple script that adds or removes entryes from /etc/hosts 
 
 # Usage
-Usage: -a 127.0.0.1 hostname.com
+Usage: 
+-a 127.0.0.1 hostname.com
 
-       -r hostname.com
-       
-       -r 127.0.0.1
+-r hostname.com
+
+-r 127.0.0.1
 
 -a,    Adds a hosts to /etc/hosts
 
