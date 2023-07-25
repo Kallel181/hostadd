@@ -1,5 +1,5 @@
 # hostadd
-A simple script that adds or removes entryes from /etc/hosts 
+A simple script that adds or removes entries from /etc/hosts 
 
 # Usage
 Usage: 
