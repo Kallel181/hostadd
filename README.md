@@ -8,7 +8,7 @@ Usage:
 -r hostname.com
 
 -r 127.0.0.1
-
+----------------
 -a,    Adds a hosts to /etc/hosts
 
 -r,    Removes a hosts to /etc/hosts
