@@ -6,17 +6,7 @@ import os
 #This is a simple Script that adds or removes hosts from /etc/hosts
 
 
-if ("-h" in sys.argv) or ("--help" in sys.argv):
-    print(" ▄▄▄     ▄▄▄█████▓ ██▀███   ▒█████   ██▓███   ▒█████    ██████ ")
-    print("▒████▄   ▓  ██▒ ▓▒▓██ ▒ ██▒▒██▒  ██▒▓██░  ██▒▒██▒  ██▒▒██    ▒ ")
-    print("▒██  ▀█▄ ▒ ▓██░ ▒░▓██ ░▄█ ▒▒██░  ██▒▓██░ ██▓▒▒██░  ██▒░ ▓██▄   ")
-    print("░██▄▄▄▄██░ ▓██▓ ░ ▒██▀▀█▄  ▒██   ██░▒██▄█▓▒ ▒▒██   ██░  ▒   ██▒")
-    print(" ▓█   ▓██▒ ▒██▒ ░ ░██▓ ▒██▒░ ████▓▒░▒██▒ ░  ░░ ████▓▒░▒██████▒▒")
-    print(" ▒▒   ▓▒█░ ▒ ░░   ░ ▒▓ ░▒▓░░ ▒░▒░▒░ ▒▓▒░ ░  ░░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░")
-    print("  ▒   ▒▒ ░   ░      ░▒ ░ ▒░  ░ ▒ ▒░ ░▒ ░       ░ ▒ ▒░ ░ ░▒  ░ ░")
-    print("  ░   ▒    ░        ░░   ░ ░ ░ ░ ▒  ░░       ░ ░ ░ ▒  ░  ░  ░  ")
-    print("      ░  ░           ░         ░ ░               ░ ░        ░  ")
-                                                            
+if ("-h" in sys.argv) or ("--help" in sys.argv):                                                            
     print("Usage: -a 127.0.0.1 hostname.com")
     print("       -r hostname.com")
     print("       -r 127.0.0.1")
